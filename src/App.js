@@ -36,6 +36,14 @@ function App() {
           <div className="date">
             {dateBuilder(new Date())}
           </div>
+          <div className="weather-box">
+            <div className="temp">
+              15C
+            </div>
+            <div className="weather">
+              Sunny
+            </div>
+          </div>
         </div>
       </main>
     </div>
